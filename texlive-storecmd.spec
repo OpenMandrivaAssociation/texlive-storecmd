@@ -48,6 +48,7 @@ text editors that do not support TeX syntax.
 %doc %{_texmfdistdir}/doc/latex/storecmd/storecmd-example.tex
 %doc %{_texmfdistdir}/doc/latex/storecmd/storecmd-guide.pdf
 %doc %{_texmfdistdir}/doc/latex/storecmd/storecmd-guide.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +59,5 @@ text editors that do not support TeX syntax.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
