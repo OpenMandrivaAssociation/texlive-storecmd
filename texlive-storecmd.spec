@@ -6,7 +6,7 @@
 # catalog-version 0.0.2
 Name:		texlive-storecmd
 Version:	0.0.2
-Release:	4
+Release:	5
 Summary:	Store the name of a defined command in a container
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/storecmd
