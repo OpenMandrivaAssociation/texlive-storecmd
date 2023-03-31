@@ -1,6 +1,6 @@
 Name:		texlive-storecmd
 Version:	24431
-Release:	1
+Release:	2
 Summary:	Store the name of a defined command in a container
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/storecmd
