@@ -3,7 +3,7 @@ Version:	24431
 Release:	2
 Summary:	Store the name of a defined command in a container
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/storecmd
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/storecmd
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/storecmd.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/storecmd.doc.r%{version}.tar.xz
